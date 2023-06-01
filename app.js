@@ -6,8 +6,8 @@ const mysql = require('mysql2');
 
 const pool = mysql.createPool({
     host: 'localhost',  //changed localhost to mysqlcont ip
-    user: 'root',
-    password: 'Malik@03',
+    user: 'mmuser',
+    password: 'Kalavati123@',
     database: 'doctor_appointment'
 });
 
